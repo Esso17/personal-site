@@ -1,4 +1,4 @@
-import { Github, Linkedin, ExternalLink } from 'lucide-react'
+import { Github, ExternalLink } from 'lucide-react'
 import { personal } from '@/lib/data'
 
 export function Footer() {
@@ -20,15 +20,6 @@ export function Footer() {
             aria-label="GitHub"
           >
             <Github size={16} />
-          </a>
-          <a
-            href={personal.links.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[var(--text-tertiary)] hover:text-[var(--text-primary)] transition-colors"
-            aria-label="LinkedIn"
-          >
-            <Linkedin size={16} />
           </a>
           <a
             href={personal.links.medium}

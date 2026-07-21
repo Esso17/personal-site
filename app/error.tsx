@@ -17,7 +17,7 @@ export default function Error({
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[var(--background)] relative overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 dark:dot-grid dot-grid-light opacity-50 pointer-events-none" />
+      <div className="absolute inset-0 dot-grid opacity-50 pointer-events-none" />
       <div className="absolute inset-0 bg-gradient-radial from-indigo-500/8 via-transparent to-transparent pointer-events-none" />
 
       <div className="relative text-center px-6">

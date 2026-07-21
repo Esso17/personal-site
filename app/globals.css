@@ -14,6 +14,7 @@
   --text-tertiary: #a1a1aa;
   --accent-from: #6366f1;
   --accent-to: #8b5cf6;
+  --dot-color: rgba(0, 0, 0, 0.05);
 }
 
 .dark {
@@ -28,6 +29,7 @@
   --text-tertiary: #71717a;
   --accent-from: #818cf8;
   --accent-to: #a78bfa;
+  --dot-color: rgba(255, 255, 255, 0.06);
 }
 
 @layer base {
@@ -119,12 +121,7 @@
   }
 
   .dot-grid {
-    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
-    background-size: 32px 32px;
-  }
-
-  .dot-grid-light {
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+    background-image: radial-gradient(circle, var(--dot-color) 1px, transparent 1px);
     background-size: 32px 32px;
   }
 
@@ -194,23 +191,5 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
-  }
-
-  .animation-delay-100 { animation-delay: 100ms; }
-  .animation-delay-200 { animation-delay: 200ms; }
-  .animation-delay-300 { animation-delay: 300ms; }
-  .animation-delay-400 { animation-delay: 400ms; }
-  .animation-delay-500 { animation-delay: 500ms; }
-  .animation-delay-600 { animation-delay: 600ms; }
-  .animation-delay-700 { animation-delay: 700ms; }
-  .animation-delay-800 { animation-delay: 800ms; }
-  .animation-delay-1000 { animation-delay: 1000ms; }
-  .animation-delay-1200 { animation-delay: 1200ms; }
-  .animation-delay-1500 { animation-delay: 1500ms; }
-  .animation-delay-2000 { animation-delay: 2000ms; }
-
-  .writing-vertical {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
   }
 }

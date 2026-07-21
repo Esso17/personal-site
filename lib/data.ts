@@ -6,8 +6,7 @@ export const personal = {
   bio: 'I build ML models and ship them to production — as APIs on AlgoDeep and as applications on Mystat. My work spans the full lifecycle: from data science and model development to deployment, monitoring, and the infrastructure that keeps systems reliable.',
   email: 'your.email@company.com',
   links: {
-    linkedin: 'https://linkedin.com/in/YOUR_HANDLE',
-    github: 'https://github.com/YOUR_HANDLE',
+    github: 'https://github.com/Esso17',
     medium: 'https://medium.com/@akeessokamouna17',
     resume: '/resume.pdf',
   },

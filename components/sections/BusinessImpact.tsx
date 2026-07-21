@@ -20,7 +20,7 @@ const cardVariants = {
 export function BusinessImpact() {
   return (
     <section id="impact" className="pt-28 pb-14 sm:pb-16 relative overflow-hidden">
-      <div className="absolute inset-0 dark:dot-grid dot-grid-light opacity-40" />
+      <div className="absolute inset-0 dot-grid opacity-40" />
       <div className="absolute inset-0 bg-gradient-radial from-indigo-500/8 via-transparent to-transparent dark:from-indigo-500/12" />
 
       {/* Orbs */}
