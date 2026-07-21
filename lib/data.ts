@@ -1,0 +1,146 @@
+// ─── PERSONAL INFO ────────────────────────────────────────────────────────────
+export const personal = {
+  name: 'Ake Esso KAMOUNA',
+  title: 'ML Engineer & Platform Contributor',
+  tagline: 'Building and Shipping Machine Learning Systems',
+  bio: 'I build ML models and ship them to production — as APIs on AlgoDeep and as applications on Mystat. My work spans the full lifecycle: from data science and model development to deployment, monitoring, and the infrastructure that keeps systems reliable.',
+  email: 'your.email@company.com',
+  links: {
+    linkedin: 'https://linkedin.com/in/YOUR_HANDLE',
+    github: 'https://github.com/YOUR_HANDLE',
+    medium: 'https://medium.com/@akeessokamouna17',
+    resume: '/resume.pdf',
+  },
+}
+
+// ─── PLATFORM CONTEXT ─────────────────────────────────────────────────────────
+export const platformContext = [
+  {
+    name: 'AlgoDeep',
+    role: 'ML models deployed as production APIs',
+    description: 'Contributed to packaging, serving, and monitoring ML models as REST APIs used by product teams.',
+    emoji: '🧠',
+  },
+  {
+    name: 'Mystat',
+    role: 'Internal analytics applications',
+    description: 'Contributed to web applications that give teams visibility into data outputs and business metrics.',
+    emoji: '📊',
+  },
+]
+
+// ─── IMPACT METRICS ───────────────────────────────────────────────────────────
+export type ImpactMetric = {
+  label: string
+  value: number
+  suffix: string
+  decimals?: number
+  description: string
+  icon: string
+}
+
+export const impactMetrics: ImpactMetric[] = [
+  {
+    label: 'Models & APIs in Production',
+    value: 50,
+    suffix: '+',
+    description: 'ML models shipped as APIs on AlgoDeep',
+    icon: 'Zap',
+  },
+  {
+    label: 'Web Applications',
+    value: 50,
+    suffix: '+',
+    description: 'Internal apps delivered on Mystat',
+    icon: 'Monitor',
+  },
+  {
+    label: 'Platform Uptime',
+    value: 99.5,
+    suffix: '%',
+    decimals: 1,
+    description: 'SLA across production systems',
+    icon: 'Shield',
+  },
+  {
+    label: 'Deployment Speed',
+    value: 60,
+    suffix: '%',
+    description: 'Faster model deployments via automation',
+    icon: 'Rocket',
+  },
+]
+
+// ─── TECHNICAL EXPERTISE ──────────────────────────────────────────────────────
+export type SkillGroup = {
+  name: string
+  skills: string[]
+}
+
+export const skillGroups: SkillGroup[] = [
+  {
+    name: 'Machine Learning & AI',
+    skills: ['Python', 'PyTorch', 'scikit-learn', 'Computer Vision', 'NLP', 'LLMs', 'RAG', 'Gemini', 'LangChain'],
+  },
+  {
+    name: 'MLOps & Deployment',
+    skills: ['FastAPI', 'Docker', 'Kubeflow', 'MLflow', 'Vertex AI', 'Cloud Run', 'GKE', 'Feature Stores'],
+  },
+  {
+    name: 'Cloud & Platform',
+    skills: ['Google Cloud Platform', 'BigQuery', 'Pub/Sub', 'Terraform', 'PostgreSQL', 'Redis'],
+  },
+]
+
+// ─── ARTICLES ─────────────────────────────────────────────────────────────────
+export type Article = {
+  title: string
+  excerpt: string
+  readTime: string
+  date: string
+  url: string
+  tags: string[]
+}
+
+export const articles: Article[] = [
+  {
+    title: 'Python Concurrency for AI Engineers: asyncio, Threads, and Processes — What Actually Works',
+    excerpt: 'Three years of writing Python for ML systems taught me one thing: reaching for the wrong concurrency tool costs more than not concurring at all. A practical breakdown of what fits which workload.',
+    readTime: '13 min',
+    date: 'May 2026',
+    url: 'https://medium.com/@akeessokamouna17/python-concurrency-for-ai-engineers-asyncio-threads-and-processes-what-actually-works-886c21da522b',
+    tags: ['Python', 'MLOps', 'Performance'],
+  },
+  {
+    title: 'Feature Freshness: The Forgotten Problem of MLOps',
+    excerpt: 'A 2 AM incident — fraud model precision dropped 18 points, not from model failure but because a feature cache stopped refreshing. The question nobody asks: how old is the data my model is scoring right now?',
+    readTime: '7 min',
+    date: 'Jun 2026',
+    url: 'https://medium.com/@akeessokamouna17/feature-freshness-the-forgotten-problem-of-mlops-7817da7e2ca7',
+    tags: ['MLOps', 'Feature Store', 'Production'],
+  },
+  {
+    title: 'From Memory-Constrained CSV Engine to Production Streaming Feature Store',
+    excerpt: 'Computing row and column means from 46 MB under a 53 KB memory budget — no external libraries. A constraint that mirrors real production systems: when you cannot store data, design to forget intelligently.',
+    readTime: '6 min',
+    date: 'Jun 2026',
+    url: 'https://medium.com/@akeessokamouna17/from-memory-constrained-csv-engine-to-production-streaming-feature-store-678a0307d9d3',
+    tags: ['Architecture', 'Streaming', 'MLOps'],
+  },
+  {
+    title: 'Recency as Strategy: The Engineering Logic Behind LRU Cache',
+    excerpt: 'I used LRU cache daily — Redis, embedding pipelines, model serving — and could explain what it does but not why it works. This is the piece that closes that gap.',
+    readTime: '7 min',
+    date: 'May 2026',
+    url: 'https://medium.com/@akeessokamouna17/recency-as-strategy-the-engineering-logic-behind-lru-cache-29f1034dbf02',
+    tags: ['Engineering', 'Caching', 'Systems'],
+  },
+]
+
+// ─── INTERNAL MOBILITY ────────────────────────────────────────────────────────
+export const mobilityTargets = [
+  { label: 'Data Science', description: 'Model development and experimentation' },
+  { label: 'ML Engineering', description: 'Training, serving, and model management' },
+  { label: 'AI Platforms', description: 'Production infrastructure for ML systems' },
+  { label: 'LLMOps / GenAI', description: 'Production LLM serving and evaluation' },
+]
