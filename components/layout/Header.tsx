@@ -37,9 +37,11 @@ export function Header() {
           : 'py-5'
       )}
     >
-      <div className="section-max-width section-padding flex items-center justify-between">
+      <div className="section-max-width section-padding grid grid-cols-3 items-center">
+        <div />
+
         {/* Nav */}
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden md:flex items-center justify-center gap-1">
           {navItems.map((item) => (
             <a
               key={item.href}
@@ -52,7 +54,7 @@ export function Header() {
         </nav>
 
         {/* Actions */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center justify-end gap-2">
           <ThemeToggle />
         </div>
       </div>
