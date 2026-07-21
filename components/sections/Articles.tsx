@@ -28,8 +28,8 @@ export function Articles() {
           className="mb-8 flex flex-col sm:flex-row sm:items-end justify-between gap-3"
         >
           <div className="text-center sm:text-left">
-            <p className="section-label mb-2">Medium</p>
-            <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[var(--text-primary)]">Technical Writing</h2>
+            <p className="section-label mb-2">Thought leadership</p>
+            <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[var(--text-primary)]">Published Writing</h2>
           </div>
           <a href={personal.links.medium} target="_blank" rel="noopener noreferrer" className="btn-secondary shrink-0 self-start sm:self-auto text-xs">
             All articles <ArrowUpRight size={13} />

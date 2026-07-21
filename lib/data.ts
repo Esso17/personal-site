@@ -1,9 +1,9 @@
 // ─── PERSONAL INFO ────────────────────────────────────────────────────────────
 export const personal = {
   name: 'Ake Esso KAMOUNA',
-  title: 'ML Engineer & Platform Contributor',
-  tagline: 'Building and Shipping Machine Learning Systems',
-  bio: 'I build ML models and ship them to production — as APIs on AlgoDeep and as applications on Mystat. My work spans the full lifecycle: from data science and model development to deployment, monitoring, and the infrastructure that keeps systems reliable.',
+  title: 'ML Engineer · Delivering Data Products That Drive Business Value',
+  tagline: 'Turning Machine Learning Into Business Outcomes',
+  bio: 'I bridge data science and business impact — building production ML systems that product teams rely on and business leaders can measure. I partner across functions, communicate complex technical work in plain language, and stay focused on delivery that creates real organizational value.',
   email: 'your.email@company.com',
   links: {
     github: 'https://github.com/Esso17',
@@ -16,14 +16,14 @@ export const personal = {
 export const platformContext = [
   {
     name: 'AlgoDeep',
-    role: 'ML models deployed as production APIs',
-    description: 'Contributed to packaging, serving, and monitoring ML models as REST APIs used by product teams.',
+    role: 'ML APIs powering product team decisions',
+    description: 'Built and maintained production ML APIs that product teams integrated into their workflows — reducing manual processes and accelerating data-driven decision-making.',
     emoji: '🧠',
   },
   {
     name: 'Mystat',
-    role: 'Internal analytics applications',
-    description: 'Contributed to web applications that give teams visibility into data outputs and business metrics.',
+    role: 'Analytics tools for business visibility',
+    description: 'Delivered internal analytics applications that gave business and data teams direct access to performance insights, shortening the gap between data and decision.',
     emoji: '📊',
   },
 ]
@@ -40,32 +40,32 @@ export type ImpactMetric = {
 
 export const impactMetrics: ImpactMetric[] = [
   {
-    label: 'Models & APIs in Production',
+    label: 'Production Systems Shipped',
     value: 50,
     suffix: '+',
-    description: 'ML models shipped as APIs on AlgoDeep',
+    description: 'ML products delivered to product teams and integrated into real workflows',
     icon: 'Zap',
   },
   {
-    label: 'Web Applications',
+    label: 'Analytics Tools Built',
     value: 50,
     suffix: '+',
-    description: 'Internal apps delivered on Mystat',
+    description: 'Dashboards giving business teams direct visibility into their data',
     icon: 'Monitor',
   },
   {
-    label: 'Platform Uptime',
+    label: 'System Reliability',
     value: 99.5,
     suffix: '%',
     decimals: 1,
-    description: 'SLA across production systems',
+    description: 'SLA — teams can depend on the systems I build',
     icon: 'Shield',
   },
   {
-    label: 'Deployment Speed',
+    label: 'Faster Time-to-Value',
     value: 60,
     suffix: '%',
-    description: 'Faster model deployments via automation',
+    description: 'Reduction in the time from project kickoff to production launch',
     icon: 'Rocket',
   },
 ]
@@ -190,8 +190,8 @@ export const softSkills: SoftSkill[] = [
 
 // ─── INTERNAL MOBILITY ────────────────────────────────────────────────────────
 export const mobilityTargets = [
-  { label: 'Data Science', description: 'Model development and experimentation' },
-  { label: 'ML Engineering', description: 'Training, serving, and model management' },
-  { label: 'AI Platforms', description: 'Production infrastructure for ML systems' },
-  { label: 'LLMOps / GenAI', description: 'Production LLM serving and evaluation' },
+  { label: 'Data Science', description: 'Leading experiments tied to business hypotheses and measurable KPIs' },
+  { label: 'ML Engineering', description: 'Owning the reliability and scalability of ML systems teams depend on' },
+  { label: 'AI Platforms', description: 'Building shared infrastructure that multiplies team delivery speed' },
+  { label: 'LLMOps / GenAI', description: 'Shipping language model applications that reach real users' },
 ]

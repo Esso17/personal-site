@@ -19,12 +19,12 @@ export function InternalMobility() {
             transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
             className="mb-8 text-center"
           >
-            <p className="section-label mb-2">Internal mobility</p>
+            <p className="section-label mb-2">Career goals</p>
             <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[var(--text-primary)] mb-3">
-              Where I Can <span className="gradient-text">Contribute</span>
+              What I&apos;m <span className="gradient-text">Looking For</span>
             </h2>
             <p className="text-sm text-[var(--text-secondary)] max-w-md mx-auto">
-              Within R&amp;I, I want to work closer to the business — where the ML and platform work I do has a direct, visible impact on product decisions and outcomes.
+              I&apos;m seeking a role at the intersection of technical depth and business ownership — where I can drive the full arc from problem definition to measurable outcomes, working alongside product and business stakeholders.
             </p>
           </motion.div>
 

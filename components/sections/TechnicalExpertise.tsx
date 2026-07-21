@@ -35,10 +35,13 @@ export function TechnicalExpertise() {
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
           className="mb-10 text-center"
         >
-          <p className="section-label mb-2">Stack</p>
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[var(--text-primary)]">
+          <p className="section-label mb-2">My toolkit</p>
+          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[var(--text-primary)] mb-2">
             Technical Expertise
           </h2>
+          <p className="text-sm text-[var(--text-secondary)] max-w-sm mx-auto">
+            The tools and technologies I use to build reliable, production-grade data products.
+          </p>
         </motion.div>
 
         {/* Word cloud */}

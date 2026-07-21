@@ -41,11 +41,10 @@ export function BusinessImpact() {
             {personal.name}
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] text-balance mb-4">
-            Building and{' '}
-            <span className="gradient-text">Shipping</span>
+            Turning Machine Learning
             <br />
-            <span className="gradient-text">ML Systems</span>{' '}
-            <span className="text-[var(--text-secondary)]">in Production</span>
+            into{' '}
+            <span className="gradient-text">Business Value</span>
           </h1>
           <p className="max-w-xl mx-auto text-base text-[var(--text-secondary)] leading-relaxed">
             {personal.bio}
@@ -60,8 +59,8 @@ export function BusinessImpact() {
           transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
           className="mb-6 text-center"
         >
-          <p className="section-label mb-2">Measurable outcomes</p>
-          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[var(--text-primary)]">Impact at Scale</h2>
+          <p className="section-label mb-2">Measurable business outcomes</p>
+          <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-[var(--text-primary)]">Delivered Impact</h2>
         </motion.div>
 
         {/* Platform context */}

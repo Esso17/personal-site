@@ -18,11 +18,11 @@ export default function Home() {
       <Header />
       <BusinessImpact />
       <Divider />
-      <TechnicalExpertise />
-      <Divider />
       <SoftSkills />
       <Divider />
       <InternalMobility />
+      <Divider />
+      <TechnicalExpertise />
       <Divider />
       <Articles />
       <Footer />
