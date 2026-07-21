@@ -71,24 +71,36 @@ export const impactMetrics: ImpactMetric[] = [
 ]
 
 // ─── TECHNICAL EXPERTISE ──────────────────────────────────────────────────────
-export type SkillGroup = {
-  name: string
-  skills: string[]
+export type CloudSkill = {
+  label: string
+  size: 'xl' | 'lg' | 'md' | 'sm'
+  category: 'ml' | 'mlops' | 'cloud'
 }
 
-export const skillGroups: SkillGroup[] = [
-  {
-    name: 'Machine Learning & AI',
-    skills: ['Python', 'PyTorch', 'scikit-learn', 'Computer Vision', 'NLP', 'LLMs', 'RAG', 'Gemini', 'LangChain'],
-  },
-  {
-    name: 'MLOps & Deployment',
-    skills: ['FastAPI', 'Docker', 'Kubeflow', 'MLflow', 'Vertex AI', 'Cloud Run', 'GKE', 'Feature Stores'],
-  },
-  {
-    name: 'Cloud & Platform',
-    skills: ['Google Cloud Platform', 'BigQuery', 'Pub/Sub', 'Terraform', 'PostgreSQL', 'Redis'],
-  },
+export const cloudSkills: CloudSkill[] = [
+  { label: 'Python',                size: 'xl', category: 'ml'    },
+  { label: 'Docker',                size: 'xl', category: 'mlops' },
+  { label: 'LLMs',                  size: 'xl', category: 'ml'    },
+  { label: 'Google Cloud Platform', size: 'xl', category: 'cloud' },
+  { label: 'FastAPI',               size: 'xl', category: 'mlops' },
+  { label: 'Vertex AI',             size: 'xl', category: 'mlops' },
+  { label: 'PyTorch',               size: 'lg', category: 'ml'    },
+  { label: 'NLP',                   size: 'lg', category: 'ml'    },
+  { label: 'RAG',                   size: 'lg', category: 'ml'    },
+  { label: 'MLflow',                size: 'lg', category: 'mlops' },
+  { label: 'GKE',                   size: 'lg', category: 'mlops' },
+  { label: 'BigQuery',              size: 'lg', category: 'cloud' },
+  { label: 'Kubeflow',              size: 'lg', category: 'mlops' },
+  { label: 'scikit-learn',          size: 'md', category: 'ml'    },
+  { label: 'Computer Vision',       size: 'md', category: 'ml'    },
+  { label: 'LangChain',             size: 'md', category: 'ml'    },
+  { label: 'Gemini',                size: 'md', category: 'ml'    },
+  { label: 'Cloud Run',             size: 'md', category: 'mlops' },
+  { label: 'Terraform',             size: 'md', category: 'cloud' },
+  { label: 'PostgreSQL',            size: 'md', category: 'cloud' },
+  { label: 'Feature Stores',        size: 'sm', category: 'mlops' },
+  { label: 'Pub/Sub',               size: 'sm', category: 'cloud' },
+  { label: 'Redis',                 size: 'sm', category: 'cloud' },
 ]
 
 // ─── ARTICLES ─────────────────────────────────────────────────────────────────

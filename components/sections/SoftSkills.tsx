@@ -54,7 +54,7 @@ export function SoftSkills() {
                 <Icon size={18} className="text-indigo-500 dark:text-indigo-400" />
                 <div>
                   <p className="text-sm font-semibold text-[var(--text-primary)] mb-1">{skill.label}</p>
-                  <p className="text-xs text-[var(--text-secondary)] leading-relaxed">{skill.description}</p>
+                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{skill.description}</p>
                 </div>
               </motion.div>
             )

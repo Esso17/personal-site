@@ -80,7 +80,7 @@ export function BusinessImpact() {
                   <h3 className="text-sm font-bold text-[var(--text-primary)]">{platform.name}</h3>
                   <span className="text-xs text-[var(--text-tertiary)]">— {platform.role}</span>
                 </div>
-                <p className="text-xs text-[var(--text-secondary)] leading-relaxed">{platform.description}</p>
+                <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{platform.description}</p>
               </div>
             </div>
           ))}

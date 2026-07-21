@@ -6,10 +6,10 @@ import { ThemeToggle } from '@/components/ui/ThemeToggle'
 import { cn } from '@/lib/utils'
 
 const navItems = [
-  { label: 'Contribute', href: '#mobility' },
   { label: 'Impact', href: '#impact' },
   { label: 'Expertise', href: '#expertise' },
   { label: 'Skills', href: '#skills' },
+  { label: 'Contribute', href: '#mobility' },
   { label: 'Writing', href: '#writing' },
 ]
 

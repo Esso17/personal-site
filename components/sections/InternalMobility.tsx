@@ -46,7 +46,7 @@ export function InternalMobility() {
                 className="gradient-border glass-card rounded-xl p-3.5 text-left"
               >
                 <p className="text-sm font-semibold text-[var(--text-primary)] mb-0.5">{target.label}</p>
-                <p className="text-xs text-[var(--text-tertiary)]">{target.description}</p>
+                <p className="text-sm text-[var(--text-tertiary)]">{target.description}</p>
               </motion.div>
             ))}
           </motion.div>
