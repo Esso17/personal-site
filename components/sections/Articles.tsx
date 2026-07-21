@@ -51,7 +51,7 @@ export function Articles() {
               href={article.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="glass-card-hover rounded-xl p-5 flex flex-col gap-3 group"
+              className="glass-card-hover rounded-xl p-5 flex flex-col gap-3 group border-l-2 border-transparent hover:border-indigo-500/50 transition-all"
             >
               {/* Tags + arrow */}
               <div className="flex items-start justify-between gap-2">

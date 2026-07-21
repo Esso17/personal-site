@@ -136,6 +136,46 @@ export const articles: Article[] = [
   },
 ]
 
+// ─── SOFT SKILLS ──────────────────────────────────────────────────────────────
+export type SoftSkill = {
+  label: string
+  description: string
+  icon: string
+}
+
+export const softSkills: SoftSkill[] = [
+  {
+    label: 'Cross-functional Communication',
+    description: 'Translating ML complexity into clear language for product, data, and business stakeholders.',
+    icon: 'MessageCircle',
+  },
+  {
+    label: 'Technical Documentation',
+    description: 'Writing runbooks, specs, and postmortems that teams actually reference weeks later.',
+    icon: 'FileText',
+  },
+  {
+    label: 'Async Collaboration',
+    description: 'Contributing effectively across distributed teams — clear threads, structured updates, no bottlenecks.',
+    icon: 'Users',
+  },
+  {
+    label: 'Knowledge Sharing',
+    description: 'Teaching through writing, internal demos, and code walkthroughs that build team capability.',
+    icon: 'BookOpen',
+  },
+  {
+    label: 'Constructive Feedback',
+    description: 'Giving and receiving code reviews with context and intent — improving the work, not just pointing out flaws.',
+    icon: 'GitPullRequest',
+  },
+  {
+    label: 'Active Listening',
+    description: 'Gathering requirements deeply before proposing solutions — fewer rewrites, more first-pass quality.',
+    icon: 'Ear',
+  },
+]
+
 // ─── INTERNAL MOBILITY ────────────────────────────────────────────────────────
 export const mobilityTargets = [
   { label: 'Data Science', description: 'Model development and experimentation' },

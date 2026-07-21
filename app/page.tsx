@@ -3,6 +3,7 @@ import { Footer } from '@/components/layout/Footer'
 import { BusinessImpact } from '@/components/sections/BusinessImpact'
 import { InternalMobility } from '@/components/sections/InternalMobility'
 import { TechnicalExpertise } from '@/components/sections/TechnicalExpertise'
+import { SoftSkills } from '@/components/sections/SoftSkills'
 import { Articles } from '@/components/sections/Articles'
 
 const Divider = () => (
@@ -20,6 +21,8 @@ export default function Home() {
       <InternalMobility />
       <Divider />
       <TechnicalExpertise />
+      <Divider />
+      <SoftSkills />
       <Divider />
       <Articles />
       <Footer />

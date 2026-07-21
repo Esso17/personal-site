@@ -9,6 +9,7 @@ const navItems = [
   { label: 'Contribute', href: '#mobility' },
   { label: 'Impact', href: '#impact' },
   { label: 'Expertise', href: '#expertise' },
+  { label: 'Skills', href: '#skills' },
   { label: 'Writing', href: '#writing' },
 ]
 
@@ -38,7 +39,9 @@ export function Header() {
       )}
     >
       <div className="section-max-width section-padding grid grid-cols-3 items-center">
-        <div />
+        <div className="hidden md:flex items-center">
+          <span className="text-xs font-bold tracking-widest text-[var(--text-tertiary)] uppercase select-none">AEK</span>
+        </div>
 
         {/* Nav */}
         <nav className="hidden md:flex items-center justify-center gap-1">

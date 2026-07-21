@@ -51,7 +51,6 @@ export function InternalMobility() {
             ))}
           </motion.div>
 
-
         </div>
       </div>
     </section>

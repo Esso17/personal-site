@@ -36,6 +36,10 @@ export function BusinessImpact() {
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           className="mb-12 text-center"
         >
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold mb-5 bg-indigo-500/10 border border-indigo-500/20 text-indigo-600 dark:text-indigo-400">
+            <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 animate-pulse" />
+            {personal.name}
+          </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] text-balance mb-4">
             Building and{' '}
             <span className="gradient-text">Shipping</span>
@@ -69,7 +73,7 @@ export function BusinessImpact() {
           className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6"
         >
           {platformContext.map((platform) => (
-            <div key={platform.name} className="glass-card rounded-xl p-4 flex items-start gap-3">
+            <div key={platform.name} className="glass-card rounded-xl p-4 flex items-start gap-3 border-l-2 border-indigo-500/30">
               <span className="text-xl leading-none shrink-0 mt-0.5">{platform.emoji}</span>
               <div>
                 <div className="flex items-baseline gap-2 mb-0.5">
@@ -99,6 +103,7 @@ export function BusinessImpact() {
                 className="glass-card-hover rounded-xl p-4 flex flex-col gap-2 cursor-default"
               >
                 <Icon size={15} className="text-indigo-500 dark:text-indigo-400" />
+                <div className="h-0.5 w-6 rounded-full bg-gradient-to-r from-indigo-500 to-violet-500" />
                 <span className="text-2xl sm:text-3xl font-bold tracking-tight text-[var(--text-primary)]">
                   <AnimatedCounter value={metric.value} suffix={metric.suffix} decimals={metric.decimals} />
                 </span>
